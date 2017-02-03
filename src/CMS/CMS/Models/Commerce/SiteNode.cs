@@ -9,9 +9,9 @@ using EPiServer.SpecializedProperties;
 
 namespace CMS.Models.Commerce
 {
-    [CatalogContentType(DisplayName = "BookNode", GUID = "4de9c757-b3dc-44b7-9b9c-32d36864de26", Description = "")]
-    public class CategoryNode : NodeContent
+    [CatalogContentType(DisplayName = "SiteNode", GUID = "a6b18fef-c3a6-45b2-8a10-d233820faa4c", Description = "")]
+    public class SiteNode : NodeContent
     {
-       
+        
     }
 }

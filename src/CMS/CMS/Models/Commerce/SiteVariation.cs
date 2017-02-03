@@ -9,9 +9,9 @@ using EPiServer.SpecializedProperties;
 
 namespace CMS.Models.Commerce
 {
-    [CatalogContentType(DisplayName = "SiteVariation", GUID = "36719426-427c-4f48-9d31-5158ce021bb2", Description = "")]
+    [CatalogContentType(DisplayName = "SiteVariation", GUID = "5bd4b21b-4514-461a-b27f-5d9e508bb532", Description = "")]
     public class SiteVariation : VariationContent
     {
-       
+        
     }
 }

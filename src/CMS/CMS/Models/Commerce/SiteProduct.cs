@@ -9,7 +9,7 @@ using EPiServer.SpecializedProperties;
 
 namespace CMS.Models.Commerce
 {
-    [CatalogContentType(DisplayName = "SiteProduct", GUID = "7aeb5b89-b3d7-4800-9324-4233abccdcce", Description = "")]
+    [CatalogContentType(DisplayName = "SiteProduct", GUID = "67deac92-3553-46cf-83a8-0351d740d6a7", Description = "")]
     public class SiteProduct : ProductContent
     {
         

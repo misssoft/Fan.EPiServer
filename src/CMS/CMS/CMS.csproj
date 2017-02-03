@@ -484,6 +484,7 @@
     <Compile Include="Business\Rendering\TemplateCoordinator.cs" />
     <Compile Include="Business\StructureMapDependencyResolver.cs" />
     <Compile Include="Business\UIDescriptors\ContainerPageUIDescriptor.cs" />
+    <Compile Include="Controllers\SiteNodeController.cs" />
     <Compile Include="Controllers\ContactBlockController.cs" />
     <Compile Include="Controllers\DefaultPageController.cs" />
     <Compile Include="Controllers\FindSearchPageController.cs" />
@@ -492,6 +493,8 @@
     <Compile Include="Controllers\PageListBlockController.cs" />
     <Compile Include="Controllers\PreviewController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\SiteProductController.cs" />
+    <Compile Include="Controllers\SiteVariationController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Controllers\VideoFileController.cs" />
     <Compile Include="Global.asax.cs">
@@ -511,7 +514,7 @@
     <Compile Include="Models\Blocks\SiteBlockData.cs" />
     <Compile Include="Models\Blocks\SiteLogotypeBlock.cs" />
     <Compile Include="Models\Blocks\TeaserBlock.cs" />
-    <Compile Include="Models\Commerce\CategoryNode.cs" />
+    <Compile Include="Models\Commerce\SiteNode.cs" />
     <Compile Include="Models\Commerce\SiteProduct.cs" />
     <Compile Include="Models\Commerce\SiteVariation.cs" />
     <Compile Include="Models\Media\GenericMedia.cs" />
@@ -690,6 +693,9 @@
     <Content Include="modules\_protected\EPiServer.Commerce.Shell\EPiServer.Commerce.Shell.zip" />
     <Content Include="modules\_protected\Commerce\Commerce.zip" />
     <Content Include="modules\_protected\EPiServer.Commerce.Shell.ManagerIntegration\EPiServer.Commerce.Shell.ManagerIntegration.zip" />
+    <Content Include="Views\SiteProduct\Index.cshtml" />
+    <Content Include="Views\SiteVariation\Index.cshtml" />
+    <Content Include="Views\SiteNode\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
