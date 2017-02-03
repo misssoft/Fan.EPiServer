@@ -9,6 +9,7 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+src/CMS/Commerce/App_Data/*
 
 # Build results
 [Dd]ebug/
